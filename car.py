@@ -19,7 +19,6 @@ class Car:
 
     def step(self):
         self.odometer += self.speed
-        self.time += 1
 
     def average_speed(self):
         return self.odometer / self.time
